@@ -32,7 +32,7 @@ The `lterpalettefinder` workflow begins with a picture from which you'd like to 
 
 ### Extracting the Palette
 
-The primary function of this package is `platte_extract` which accepts the name and/or path to the image file in your working directory. This function also includes an optional progress bar that is switched off in the example below
+The primary function of this package is `palette_extract` which accepts the name and/or path to the image file in your working directory. This function also includes an optional progress bar that is switched off in the example below
 
 ```{r palette_extract}
 fire_palette <- palette_extract(image = "lyon_fire.png", progress_bar = FALSE)
